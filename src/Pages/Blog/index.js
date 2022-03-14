@@ -1,6 +1,15 @@
+import { useContext } from 'react'
+
+import { ThemeContext } from '../../ThemeContext'
+
 function Blog(){
+
+    const value = useContext(ThemeContext)
+
     return(
-        <h1>Blog Page</h1>
+        <div className={`blog ${value.theme}`}>
+            <h1>Blog Page</h1>
+        </div>
     )
 }
 

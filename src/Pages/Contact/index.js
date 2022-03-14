@@ -1,6 +1,15 @@
+import { useContext } from 'react'
+
+import { ThemeContext } from '../../ThemeContext'
+
 function Contact(){
+
+    const value = useContext(ThemeContext)
+
     return(
-        <h1>Contact Page</h1>
+        <div className={`contact ${value.theme}`}>
+            <h1>Contact Page</h1>
+        </div>
     )
 }
 

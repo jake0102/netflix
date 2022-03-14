@@ -1,6 +1,15 @@
+import { useContext } from 'react'
+
+import { ThemeContext } from '../../ThemeContext'
+
 function Register(){
+
+    const value = useContext(ThemeContext)
+
     return(
-        <h1>Register</h1>
+        <div className={`register ${value.theme}`}>
+            <h1>Register Page</h1>
+        </div>
     )
 }
 

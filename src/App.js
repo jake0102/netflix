@@ -20,13 +20,13 @@ import Header from './Components/Header'
     newValue = window.pageYOffset;
     if (oldValue < newValue) {
       if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
-        if(header.classList[1] == 'showOut'){
+        if(header.classList[2] == 'showOut'){
           header.classList.remove('showOut')
         }
         header.classList.add('showIn')
       }
     } else if (oldValue > newValue) {
-      if(header.classList[1] == 'showIn'){
+      if(header.classList[2] == 'showIn'){
         header.classList.remove('showIn')
       }
       header.classList.add('showOut')
