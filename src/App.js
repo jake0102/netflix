@@ -1,4 +1,4 @@
-import './App.css'
+import './App.scss'
 import HomePage from './Pages/Home'
 import AboutPage from './Pages/About'
 
