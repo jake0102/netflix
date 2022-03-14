@@ -1,32 +1,34 @@
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect, useRef, useContext } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faLightbulb } from '@fortawesome/free-solid-svg-icons'
+
+import { ThemeContext } from '../../../ThemeContext'
 
 function Other(){
 
     const [show, setShow] = useState(false)
 
-    useEffect(()=>{
-        
-        const search = document.querySelector('.header__other__search')
+    const searchRef = useRef()
 
+    const value = useContext(ThemeContext)
+
+    useEffect(()=>{
         if(show){
-            if(search.classList[1] == 'search__Hide'){
-                search.classList.remove('search__Hide')
+            if(searchRef.current.classList[1] == 'search__Hide'){
+                searchRef.current.classList.remove('search__Hide')
             }
-            search.classList.add('search__Show')
+            searchRef.current.classList.add('search__Show')
         }else{
-            if(search.classList[1] == 'search__Show'){
-                search.classList.remove('search__Show')
+            if(searchRef.current.classList[1] == 'search__Show'){
+                searchRef.current.classList.remove('search__Show')
             }
-            search.classList.add('search__Hide')
+            searchRef.current.classList.add('search__Hide')
         }
     }, [show])
 
     return(
         <div className="header__other">
-            <div className="header__other__search" >
+            <div className="header__other__search" ref={searchRef}>
                 <FontAwesomeIcon 
                     icon={faSearch} 
                     style={{margin: '0 10px 0 10px'}} 
@@ -35,9 +37,9 @@ function Other(){
                 <input type="text" placeholder="Search..."/>
             </div>
 
-            <Link className="header__other__register" to="/Register" >
-                <FontAwesomeIcon icon={faUser} />
-            </Link>
+            <div className="header__other__theme">
+                <FontAwesomeIcon icon={faLightbulb} onClick={value.toggleTheme}/>
+            </div>
         </div>
     )
 }

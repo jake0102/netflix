@@ -1,7 +1,6 @@
 :root{
     --box-shadow: 3px 3px 7px rgb(230, 230, 230);
-    --unActive-color: rgb(200, 200, 200);
-    --opa: 0.6;
+    --opa: 0.7;
 }
 .App{
     font-size: 14px;
@@ -26,7 +25,6 @@
     box-shadow: var(--box-shadow);
     display: flex;
     justify-content: center;
-    color: white;
 }
 .showIn{
     animation: showIn 1s alternate forwards;
@@ -76,9 +74,9 @@
 .header__nav__item{
     margin: 0 10px 0 10px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 900;
     text-decoration: none;
-    color: var(--unActive-color);
+    color: black;
 
     &:hover{
         cursor: pointer;
@@ -86,7 +84,7 @@
     }
 }
 .active{
-    color: black;
+    // border-bottom: 1px solid black;
 }
 .header__other{
     display: flex;
@@ -102,7 +100,6 @@
     border-radius: 5px;
     width: 30px;
     overflow: hidden;
-    color: black;
 
     & input{
         width: 200px;
@@ -141,12 +138,10 @@
         width: 30px;
     }
 }
-.header__other__register{
+.header__other__theme{
     font-size: 20px;
     font-weight: 700;
-    text-decoration: none;
     margin: 0 10px 0 10px;
-    color: black;
 
     &:hover{
         cursor: pointer;
@@ -154,7 +149,7 @@
     }
 }
 .dark{
-    background: black;
+    background: rgb(46, 46, 46);
     color: white;
 }
 .white{
