@@ -8,7 +8,7 @@ import ProductPage from './Pages/Product'
 import BlogPage from './Pages/Blog'
 import ContactPage from './Pages/Contact'
 import AboutPage from './Pages/About'
-import Register from './Register'
+import RegisterPage from './Pages/Register'
 // Component
 import Header from './Components/Header'
 

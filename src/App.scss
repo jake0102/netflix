@@ -1,6 +1,7 @@
 :root{
     --box-shadow: 3px 3px 7px rgb(230, 230, 230);
     --unActive-color: rgb(200, 200, 200);
+    --opa: 0.6;
 }
 .App{
     font-size: 14px;
@@ -41,7 +42,7 @@
     
     &:hover{
         cursor: pointer;
-        opacity: 0.6;
+        opacity: var(--opa);
     }
 }
 .header__nav{
@@ -58,9 +59,19 @@
 
     &:hover{
         cursor: pointer;
-        opacity: 0.6;
+        opacity: var(--opa);
     }
 }
 .active{
     color: black;
+}
+.header__noti{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    &:hover{
+        cursor: pointer;
+        opacity: var(--opa);
+    }
 }
