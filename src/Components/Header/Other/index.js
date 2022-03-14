@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBell, faSearch } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faSearch } from '@fortawesome/free-solid-svg-icons'
 
-function Noti(){
+function Other(){
 
     const [show, setShow] = useState(false)
 
@@ -35,11 +35,11 @@ function Noti(){
                 <input type="text" placeholder="Search..."/>
             </div>
 
-            <Link className="header__other__noti" to="/Register" >
-                <FontAwesomeIcon icon={faBell} />
+            <Link className="header__other__register" to="/Register" >
+                <FontAwesomeIcon icon={faUser} />
             </Link>
         </div>
     )
 }
 
-export default Noti
+export default Other

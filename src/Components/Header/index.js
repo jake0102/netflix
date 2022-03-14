@@ -1,6 +1,6 @@
 import Logo from './Logo'
 import Nav from './Nav'
-import Noti from './Noti'
+import Other from './Other'
 
 function Header(){
     return(
@@ -8,7 +8,7 @@ function Header(){
             <div className="header__container">
                 <Logo />
                 <Nav />
-                <Noti />
+                <Other />
             </div>
         </div>
     )
