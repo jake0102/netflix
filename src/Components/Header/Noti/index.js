@@ -4,7 +4,7 @@ import { faBell } from '@fortawesome/free-solid-svg-icons'
 
 function Noti(){
     return(
-        <Link className="header__noti" to="/Register"><FontAwesomeIcon icon={faBell} /></Link>
+        <Link className="header__noti" to="/Register" ><FontAwesomeIcon icon={faBell} /></Link>
     )
 }
 
