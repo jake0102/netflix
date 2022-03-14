@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function Nav(){
 
     const handleActive = (e) => {
@@ -11,25 +13,25 @@ function Nav(){
 
     return(
         <div className="header__nav">
-            <div className="header__nav__item active" onClick={(e) => handleActive(e)}>
+            <Link to="/" className="header__nav__item active" onClick={(e) => handleActive(e)}>
                 Home
-            </div>
+            </Link>
 
-            <div className="header__nav__item" onClick={(e) => handleActive(e)}>
+            <Link to="/Product" className="header__nav__item" onClick={(e) => handleActive(e)}>
                 Product
-            </div>
+            </Link>
 
-            <div className="header__nav__item" onClick={(e) => handleActive(e)}>
+            <Link to="/Blog" className="header__nav__item" onClick={(e) => handleActive(e)}>
                 Blog
-            </div>
+            </Link>
 
-            <div className="header__nav__item" onClick={(e) => handleActive(e)}>
+            <Link to="/Contact" className="header__nav__item" onClick={(e) => handleActive(e)}>
                 Contact
-            </div>
+            </Link>
 
-            <div className="header__nav__item" onClick={(e) => handleActive(e)}>
+            <Link to="/About" className="header__nav__item" onClick={(e) => handleActive(e)}>
                 About
-            </div>
+            </Link>
         </div>
     )
 }

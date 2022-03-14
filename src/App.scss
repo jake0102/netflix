@@ -5,6 +5,7 @@
 .App{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    height: 3000px;
     // font-family: 'Noto Sans JP', sans-serif;
 }
 .Wrapper{
@@ -35,6 +36,7 @@
 .header__logo{
     font-family: 'Courgette', cursive;
     font-size: 35px;
+    text-decoration: none;
     color: rgb(218, 105, 105);
     
     &:hover{
@@ -51,10 +53,12 @@
     margin: 0 10px 0 10px;
     font-size: 16px;
     font-weight: 700;
+    text-decoration: none;
     color: var(--unActive-color);
 
     &:hover{
         cursor: pointer;
+        opacity: 0.6;
     }
 }
 .active{
