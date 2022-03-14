@@ -1,3 +1,62 @@
-.abc{
-    color: red;
+:root{
+    --box-shadow: 3px 3px 7px rgb(230, 230, 230);
+    --unActive-color: rgb(200, 200, 200);
+}
+.App{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Noto Sans JP', sans-serif;
+}
+.Wrapper{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1996;
+    width: 100%;
+    height: 80px;
+    background: rgb(255, 255, 255);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+}
+.header__container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+    color: rgb(218, 105, 105);
+    
+    &:hover{
+        cursor: pointer;
+        opacity: 0.6;
+    }
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav__item{
+    margin: 0 10px 0 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--unActive-color);
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+.active{
+    color: black;
 }

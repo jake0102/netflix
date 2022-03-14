@@ -1,0 +1,9 @@
+import ___ from './___'
+
+function ___(){
+    return(
+        <h1>___</h1>
+    )
+}
+
+export default ___
