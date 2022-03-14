@@ -87,11 +87,31 @@
 .active{
     color: black;
 }
-.header__noti{
+.header__other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__other__search{
+    margin: 0 10px 0 10px;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    background: rgb(206, 206, 206);
+
+    &:hover{
+        opacity: var(--opa);
+        cursor: pointer;
+
+    }
+}
+.header__other__noti{
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
+    margin: 0 10px 0 10px;
     color: black;
+
     &:hover{
         cursor: pointer;
         opacity: var(--opa);
