@@ -11,7 +11,7 @@ import AboutPage from './Pages/About'
 import RegisterPage from './Pages/Register'
 // Component
 import Header from './Components/Header'
-
+// Function
 ;(()=>{
   let oldValue = 0
   let newValue = 0
