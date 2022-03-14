@@ -27,6 +27,28 @@
     display: flex;
     justify-content: center;
 }
+.showIn{
+    animation: showIn 1s alternate forwards;
+}
+@keyframes showIn{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+}
+.showOut{
+    animation: showOut 1s alternate forwards;
+}
+@keyframes showOut{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 .header__container{
     width: 95%;
     height: 100%;

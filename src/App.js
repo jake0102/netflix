@@ -12,6 +12,29 @@ import RegisterPage from './Pages/Register'
 // Component
 import Header from './Components/Header'
 
+;(()=>{
+  let oldValue = 0
+  let newValue = 0
+  window.addEventListener('scroll', (e) => {
+    const header = document.querySelector('.header')
+    newValue = window.pageYOffset;
+    if (oldValue < newValue) {
+      if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
+        if(header.classList[1] == 'showOut'){
+          header.classList.remove('showOut')
+        }
+        header.classList.add('showIn')
+      }
+    } else if (oldValue > newValue) {
+      if(header.classList[1] == 'showIn'){
+        header.classList.remove('showIn')
+      }
+      header.classList.add('showOut')
+    }
+    oldValue = newValue;
+  });
+})()
+
 function App() {
   return (
     <div className="App">
