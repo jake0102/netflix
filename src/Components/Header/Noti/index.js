@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom'
+
 function Noti(){
     return(
-        <span>Noti</span>
+        <Link to="/Register">Register</Link>
     )
 }
 
