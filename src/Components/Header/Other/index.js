@@ -38,7 +38,7 @@ function Other(){
             </div>
 
             <div className="header__other__theme">
-                <FontAwesomeIcon icon={faLightbulb} onClick={value.toggleTheme}/>
+                <FontAwesomeIcon icon={faLightbulb} onClick={value.toggleHeaderTheme}/>
             </div>
         </div>
     )

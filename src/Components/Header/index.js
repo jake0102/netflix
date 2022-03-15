@@ -10,7 +10,7 @@ function Header(){
     const value = useContext(ThemeContext)
 
     return(
-        <div className={`header ${value.theme}`}>
+        <div className={`header ${value.headerTheme}`}>
             <div className="header__container">
                 <Logo />
                 <Nav />
