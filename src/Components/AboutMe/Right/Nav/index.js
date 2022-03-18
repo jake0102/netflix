@@ -17,7 +17,7 @@ function Nav(){
 
             <div className="home-aboutMe-right-container">
                 <div className={`home-aboutMe-right-icon ${value.rightNavTheme}`}>
-                    <FontAwesomeIcon icon={faUser} style={{color: 'rgb(245, 200, 104)'}}/>
+                    <FontAwesomeIcon icon={faUser} style={{color: '#f5c868'}}/>
                 </div>
             </div>
 
