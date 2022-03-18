@@ -3,17 +3,21 @@ import { useState, createContext } from 'react'
 const ThemeContext = createContext()
 
 function ThemeProvider( {children} ){
-    const [headerTheme, setHeaderTheme] = useState('header__light')
+    const [headerTheme, setHeaderTheme] = useState('header-light')
 
-    const [wrapperTheme, setWrapperTheme] = useState('wrapper__light')
+    const [navTheme, setNavTheme] = useState('nav-light')
+
+    const [wrapperTheme, setWrapperTheme] = useState('wrapper-light')
 
     const toggleHeaderTheme = () => {
-        setHeaderTheme(headerTheme === 'header__light' ? 'header__dark' : 'header__light')
-        setWrapperTheme(wrapperTheme === 'wrapper__light' ? 'wrapper__dark' : 'wrapper__light')
+        setHeaderTheme(headerTheme === 'header-light' ? 'header-dark' : 'header-light')
+        setNavTheme(navTheme === 'nav-light' ? 'nav-dark' : 'nav-light')
+        setWrapperTheme(wrapperTheme === 'wrapper-light' ? 'wrapper-dark' : 'wrapper-light')
     }
 
     const value = {
         headerTheme,
+        navTheme,
         wrapperTheme,
         toggleHeaderTheme
     }

@@ -18,6 +18,7 @@ import Header from './Components/Header'
   window.addEventListener('scroll', (e) => {
     const header = document.querySelector('.header')
     newValue = window.pageYOffset;
+
     if (oldValue < newValue) {
       if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
         if(header.classList[2] == 'showOut'){

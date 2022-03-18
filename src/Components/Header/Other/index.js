@@ -14,21 +14,21 @@ function Other(){
 
     useEffect(()=>{
         if(show){
-            if(searchRef.current.classList[1] == 'search__Hide'){
-                searchRef.current.classList.remove('search__Hide')
+            if(searchRef.current.classList[1] == 'search-Hide'){
+                searchRef.current.classList.remove('search-Hide')
             }
-            searchRef.current.classList.add('search__Show')
+            searchRef.current.classList.add('search-Show')
         }else{
-            if(searchRef.current.classList[1] == 'search__Show'){
-                searchRef.current.classList.remove('search__Show')
+            if(searchRef.current.classList[1] == 'search-Show'){
+                searchRef.current.classList.remove('search-Show')
             }
-            searchRef.current.classList.add('search__Hide')
+            searchRef.current.classList.add('search-Hide')
         }
     }, [show])
 
     return(
-        <div className="header__other">
-            <div className="header__other__search" ref={searchRef}>
+        <div className="header-other">
+            <div className="header-other-search" ref={searchRef}>
                 <FontAwesomeIcon 
                     icon={faSearch} 
                     style={{margin: '0 10px 0 10px'}} 
@@ -37,7 +37,7 @@ function Other(){
                 <input type="text" placeholder="Search..."/>
             </div>
 
-            <div className="header__other__theme">
+            <div className="header-other-theme">
                 <FontAwesomeIcon icon={faLightbulb} onClick={value.toggleHeaderTheme}/>
             </div>
         </div>

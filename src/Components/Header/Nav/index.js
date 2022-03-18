@@ -9,7 +9,7 @@ function Nav(){
 
     const handleActive = (e) => {
 
-        const activedItem = document.querySelector('.header__nav__item.active')
+        const activedItem = document.querySelector('.header-nav-item.active')
 
         activedItem.classList.remove('active')
 
@@ -17,24 +17,24 @@ function Nav(){
     }
 
     return(
-        <div className="header__nav">
-            <Link to="/" className={`header__nav__item ${value.headerTheme} active`} onClick={(e) => handleActive(e)}>
+        <div className="header-nav">
+            <Link to="/" className={`header-nav-item ${value.navTheme} active`} onClick={(e) => handleActive(e)}>
                 Home
             </Link>
 
-            <Link to="/Product" className={`header__nav__item ${value.headerTheme}`} onClick={(e) => handleActive(e)}>
+            <Link to="/Product" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
                 Product
             </Link>
 
-            <Link to="/Blog" className={`header__nav__item ${value.headerTheme}`} onClick={(e) => handleActive(e)}>
+            <Link to="/Blog" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
                 Blog
             </Link>
 
-            <Link to="/Contact" className={`header__nav__item ${value.headerTheme}`} onClick={(e) => handleActive(e)}>
+            <Link to="/Contact" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
                 Contact
             </Link>
 
-            <Link to="/About" className={`header__nav__item ${value.headerTheme}`} onClick={(e) => handleActive(e)}>
+            <Link to="/About" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
                 About
             </Link>
         </div>

@@ -3,7 +3,7 @@ import Right from './Right'
 
 function FirstLook(){
     return(
-        <div className="home__firstlook">
+        <div className="home-firstlook">
             <Left />
             <Right />
         </div>
