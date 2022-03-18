@@ -3,7 +3,7 @@ import Nav from './Nav'
 
 function Right(){
     return(
-        <div className="home-firstlook-right">
+        <div className="home-aboutMe-right">
             <Contents />
             <Nav />
         </div>

@@ -9,16 +9,20 @@ function ThemeProvider( {children} ){
 
     const [wrapperTheme, setWrapperTheme] = useState('wrapper-light')
 
+    const [rightNavTheme, setRightNavTheme] = useState('rightNav-light')
+
     const toggleHeaderTheme = () => {
         setHeaderTheme(headerTheme === 'header-light' ? 'header-dark' : 'header-light')
         setNavTheme(navTheme === 'nav-light' ? 'nav-dark' : 'nav-light')
         setWrapperTheme(wrapperTheme === 'wrapper-light' ? 'wrapper-dark' : 'wrapper-light')
+        setRightNavTheme(rightNavTheme === 'rightNav-light' ? 'rightNav-dark' : 'rightNav-light')
     }
 
     const value = {
         headerTheme,
         navTheme,
         wrapperTheme,
+        rightNavTheme,
         toggleHeaderTheme
     }
 

@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
-import FirstLook from '../../Components/FirstLook'
+import AboutMe from '../../Components/AboutMe'
 
 function Home(){
 
@@ -9,7 +9,7 @@ function Home(){
 
     return(
         <div className={`home ${value.wrapperTheme}`}>
-            <FirstLook />
+            <AboutMe />
         </div>
     )
 }

@@ -1,13 +1,13 @@
 import Left from './Left'
 import Right from './Right'
 
-function FirstLook(){
+function AboutMe(){
     return(
-        <div className="home-firstlook">
+        <div className="home-aboutMe">
             <Left />
             <Right />
         </div>
     )
 }
 
-export default FirstLook
+export default AboutMe
