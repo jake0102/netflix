@@ -16,3 +16,14 @@ function Home(){
 }
 
 export default Home
+
+
+function __(){
+    return (
+        <div className="__">
+
+        </div>
+    )
+}
+
+export default __
