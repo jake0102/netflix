@@ -2,6 +2,7 @@ import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
 import AboutMe from '../../Components/AboutMe'
+import HomeNav from '../../Components/HomeNav'
 
 function Home(){
 
@@ -10,6 +11,7 @@ function Home(){
     return(
         <div className={`home ${value.wrapperTheme}`}>
             <AboutMe />
+            <HomeNav />
         </div>
     )
 }
