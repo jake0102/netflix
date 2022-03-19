@@ -256,6 +256,9 @@
         font-weight: 700;
     }
 }
+.home-nav-label-ani{
+    animation: navShow 1s alternate forwards;
+}
 @keyframes navShow {
     from{
         width: 0;

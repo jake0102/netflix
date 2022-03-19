@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { ThemeContext } from '../../../ThemeContext'
 import { ChangeView } from '../../../Pages/Home'
 
+
 function NavItem(props){
 
     const value = useContext(ThemeContext)
@@ -11,7 +12,7 @@ function NavItem(props){
 
     return (
         <div className="home-nav-container" onClick={() => views.getView(props.view)}>
-            <div className={`home-nav-label ${value.rightNavTheme}`} >
+            <div className={`home-nav-label ${value.rightNavTheme} home-nav-label-ani`} >
                 <span>{props.contents}</span>
             </div>
             <div className={`home-nav-icon ${value.rightNavTheme}`} >
