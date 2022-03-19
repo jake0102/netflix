@@ -2,6 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useContext } from 'react'
 import { ThemeContext } from '../../../ThemeContext'
 import { ChangeView } from '../../../Pages/Home'
+import clsx from 'clsx'
+
+import styles from './NavItem.module.scss'
 
 
 function NavItem(props){
@@ -10,9 +13,13 @@ function NavItem(props){
 
     const views = useContext(ChangeView)
 
+    const classes = clsx({
+        [styles.Ani]: views.Ani
+    })
+
     return (
         <div className="home-nav-container" onClick={() => views.getView(props.view)}>
-            <div className={`home-nav-label ${value.rightNavTheme} home-nav-label-ani`} >
+            <div className={`home-nav-label ${value.rightNavTheme} ${classes}`} >
                 <span>{props.contents}</span>
             </div>
             <div className={`home-nav-icon ${value.rightNavTheme}`} >

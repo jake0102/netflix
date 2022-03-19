@@ -1,0 +1,11 @@
+.Ani{
+    animation: navShow 1s alternate forwards;
+}
+@keyframes navShow {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}

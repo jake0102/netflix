@@ -1,4 +1,4 @@
-import { useContext, createContext } from 'react'
+import { useContext, createContext, useState } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
 import AboutMe from '../../Components/AboutMe'
@@ -10,12 +10,16 @@ function Home(){
 
     const value = useContext(ThemeContext)
 
+    const [Ani, setAni] = useState(false)
+
     const getView = (view) => {
         console.log(view);
+        setAni(!Ani)
     }
 
     const views = {
-        getView
+        getView,
+        Ani
     }
 
     return(
