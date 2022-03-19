@@ -2,15 +2,16 @@ import { faUser, faCode, faQuestion, faHeart } from '@fortawesome/free-solid-svg
 
 import NavItem from './NavItem'
 
-function Nav(){
+function HomeNav(){
+
     return (
         <div className="home-nav">
-            <NavItem myIcon={faQuestion} myColor="#358dca"/>
-            <NavItem myIcon={faUser} myColor="#f5c868"/>
-            <NavItem myIcon={faCode} myColor="#5fa095"/>
-            <NavItem myIcon={faHeart} myColor="#f63609"/>
+            <NavItem myIcon={faQuestion} myColor="#358dca" view="about"/>
+            <NavItem myIcon={faUser} myColor="#f5c868" view="more"/>
+            <NavItem myIcon={faCode} myColor="#5fa095" view="lang"/>
+            <NavItem myIcon={faHeart} myColor="#f63609" view="like"/>
         </div>
     )
 }
 
-export default Nav
+export default HomeNav
