@@ -11,6 +11,9 @@ function NavItem(props){
 
     return (
         <div className="home-nav-container" onClick={() => views.getView(props.view)}>
+            <div className={`home-nav-label ${value.rightNavTheme}`} >
+                <span>{props.contents}</span>
+            </div>
             <div className={`home-nav-icon ${value.rightNavTheme}`} >
                 <FontAwesomeIcon icon={props.myIcon} style={{color: `${props.myColor}`}}/>
             </div>
