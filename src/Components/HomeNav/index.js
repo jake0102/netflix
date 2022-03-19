@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faCode, faQuestion, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 import NavItem from './NavItem'
