@@ -8,6 +8,8 @@ export const ChangeView = createContext()
 
 function Home(){
 
+    let View = <AboutMe />
+
     const value = useContext(ThemeContext)
 
     const [Ani, setAni] = useState(false)
@@ -25,7 +27,7 @@ function Home(){
         <div className={`home ${value.wrapperTheme}`}>
             <ChangeView.Provider value={views}>
                 <HomeNav />
-                <AboutMe />
+                {View}
             </ChangeView.Provider>
         </div>
     )
