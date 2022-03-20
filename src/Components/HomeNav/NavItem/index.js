@@ -6,7 +6,6 @@ import clsx from 'clsx'
 
 import styles from './NavItem.module.scss'
 
-
 function NavItem(props){
 
     const value = useContext(ThemeContext)
@@ -18,9 +17,9 @@ function NavItem(props){
     })
 
     return (
-        <div className="home-nav-container" onClick={() => views.getView(props.view)}>
+        <div className="home-nav-container" onClick={() => views.getView(props.myView)}>
             <div className={`home-nav-label ${value.rightNavTheme} ${classes}`} >
-                <span>{props.contents}</span>
+                <span>{props.myContents}</span>
             </div>
             <div className={`home-nav-icon ${value.rightNavTheme}`} >
                 <FontAwesomeIcon icon={props.myIcon} style={{color: `${props.myColor}`}}/>

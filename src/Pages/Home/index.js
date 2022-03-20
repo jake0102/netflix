@@ -13,8 +13,7 @@ function Home(){
     const [Ani, setAni] = useState(false)
 
     const getView = (view) => {
-        console.log(view);
-        setAni(!Ani)
+        console.log(view)
     }
 
     const views = {
