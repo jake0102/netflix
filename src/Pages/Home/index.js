@@ -11,8 +11,6 @@ export const ChangeView = createContext()
 
 function Home(){
 
-    const [Ani, setAni] = useState(true)
-
     const [showAbout, setShowAbout] = useState(true)
     const [showMore, setShowMore] = useState(false)
     const [showLang, setShowLang] = useState(false)
@@ -49,8 +47,7 @@ function Home(){
     }
 
     const views = {
-        getView,
-        Ani
+        getView
     }
 
     return(
