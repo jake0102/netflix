@@ -157,6 +157,15 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    animation: moveon 1s alternate forwards;
+}
+@keyframes moveon {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
 }
 .home-aboutMe-left{
     width: 40%;
@@ -197,6 +206,7 @@
     font-family: 'Poppins', sans-serif;
     line-height: 3rem;
     margin-bottom: 2rem;
+    color: #339dcc;
 }
 .home-aboutMe-right-description-contents{
     width: 500px;
@@ -213,6 +223,7 @@
     top: 0; 
     width: 150px;
     border-radius: 100rem;
+    z-index: 1995;
     transform: translate(-20%, 60%);
 }
 .home-nav-container{
