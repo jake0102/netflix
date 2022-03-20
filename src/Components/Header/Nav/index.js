@@ -22,8 +22,8 @@ function Nav(){
                 Home
             </Link>
 
-            <Link to="/Product" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
-                Product
+            <Link to="/Project" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
+                Project
             </Link>
 
             <Link to="/Blog" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>

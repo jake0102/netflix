@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.scss'
 // Pages
 import HomePage from './Pages/Home'
-import ProductPage from './Pages/Product'
+import ProjectPage from './Pages/Project'
 import BlogPage from './Pages/Blog'
 import ContactPage from './Pages/Contact'
 import AboutPage from './Pages/About'
@@ -43,7 +43,7 @@ function App() {
       <div className="Wrapper">
         <Routes>
           <Route path="/" element={<HomePage />}/>
-          <Route path="/Product" element={<ProductPage />}/>
+          <Route path="/Project" element={<ProjectPage />}/>
           <Route path="/Blog" element={<BlogPage />}/>
           <Route path="/Contact" element={<ContactPage />}/>
           <Route path="/About" element={<AboutPage />}/>

@@ -2,15 +2,15 @@ import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
 
-function Product(){
+function Project(){
 
     const value = useContext(ThemeContext)
 
     return(
-        <div className={`product ${value.theme}`}>
-            <h1>Product Page</h1>
+        <div className={`project ${value.theme}`}>
+            <h1>Project Page</h1>
         </div>
     )
 }
 
-export default Product
+export default Project
