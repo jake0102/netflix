@@ -6,7 +6,7 @@ function HomeNav(){
 
     return (
         <div className="home-nav">
-            <NavItem myIcon={faQuestion} myColor="red" myView="about" myContents="About" />
+            <NavItem myIcon={faQuestion} myColor="#f94c06" myView="about" myContents="About" />
             <NavItem myIcon={faUser} myColor="#f5c868" myView="more" myContents="More"/>
             <NavItem myIcon={faCode} myColor="#8abc43" myView="lang" myContents="Language"/>
             <NavItem myIcon={faHeart} myColor="pink" myView="like" myContents="Like"/>
