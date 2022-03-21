@@ -5,7 +5,7 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            12
+                            12<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
@@ -17,7 +17,7 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            97
+                            97<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
@@ -31,7 +31,7 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            81
+                            81<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
@@ -43,7 +43,7 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            53
+                            53<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
