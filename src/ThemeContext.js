@@ -3,21 +3,24 @@ import { useState, createContext } from 'react'
 const ThemeContext = createContext()
 
 function ThemeProvider( {children} ){
-    const [headerTheme, setHeaderTheme] = useState('header-light')
 
-    const [navTheme, setNavTheme] = useState('nav-light')
+    const nowTheme = 'light'
 
-    const [wrapperTheme, setWrapperTheme] = useState('wrapper-light')
+    const [headerTheme, setHeaderTheme] = useState(`header-${nowTheme}`)
 
-    const [rightNavTheme, setRightNavTheme] = useState('rightNav-light')
+    const [navTheme, setNavTheme] = useState(`nav-${nowTheme}`)
 
-    const [moreAboutMeTheme, setMoreAboutMeTheme] = useState('moreAboutMe-light')
+    const [wrapperTheme, setWrapperTheme] = useState(`wrapper-${nowTheme}`)
 
-    const [moreAboutMeTheme1, setMoreAboutMeTheme1] = useState('moreAboutMe1-light')
+    const [rightNavTheme, setRightNavTheme] = useState(`rightNav-${nowTheme}`)
 
-    const [moreAboutMeTheme2, setMoreAboutMeTheme2] = useState('moreAboutMe2-light')
+    const [moreAboutMeTheme, setMoreAboutMeTheme] = useState(`moreAboutMe-${nowTheme}`)
 
-    const [colTheme, setColTheme] = useState('cricle-light')
+    const [moreAboutMeTheme1, setMoreAboutMeTheme1] = useState(`moreAboutMe1-${nowTheme}`)
+
+    const [moreAboutMeTheme2, setMoreAboutMeTheme2] = useState(`moreAboutMe2-${nowTheme}`)
+
+    const [colTheme, setColTheme] = useState(`cricle-${nowTheme}`)
 
     const toggleHeaderTheme = () => {
         setHeaderTheme(headerTheme === 'header-light' ? 'header-dark' : 'header-light')

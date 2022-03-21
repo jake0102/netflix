@@ -2,8 +2,8 @@ import { useContext, createContext, useState } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
 import AboutMe from '../../Components/AboutMe'
-import MoreAboutMe from '../../Components/MoreAboutMe'
-import Language from '../../Components/Language'
+import More from '../../Components/More'
+import Skill from '../../Components/Skill'
 import Like from '../../Components/Like'
 import HomeNav from '../../Components/HomeNav'
 
@@ -13,7 +13,7 @@ function Home(){
 
     const [showAbout, setShowAbout] = useState(true)
     const [showMore, setShowMore] = useState(false)
-    const [showLang, setShowLang] = useState(false)
+    const [showSkill, setShowSkill] = useState(false)
     const [showLike, setShowLike] = useState(false)
 
     const value = useContext(ThemeContext)
@@ -23,25 +23,25 @@ function Home(){
             case 'about':
                 setShowAbout(true)
                 setShowMore(false)
-                setShowLang(false)
+                setShowSkill(false)
                 setShowLike(false)
                 break;
             case 'more':
                 setShowAbout(false)
                 setShowMore(true)
-                setShowLang(false)
+                setShowSkill(false)
                 setShowLike(false)
                 break;
-            case 'lang':
+            case 'skill':
                 setShowAbout(false)
                 setShowMore(false)
-                setShowLang(true)
+                setShowSkill(true)
                 setShowLike(false)
                 break;
             case 'like':
                 setShowAbout(false)
                 setShowMore(false)
-                setShowLang(false)
+                setShowSkill(false)
                 setShowLike(true)
         }
     }
@@ -55,8 +55,8 @@ function Home(){
             <ChangeView.Provider value={views}>
                 <HomeNav />
                 {showAbout && <AboutMe />}
-                {showMore && <MoreAboutMe />}
-                {showLang && <Language />}
+                {showMore && <More />}
+                {showSkill && <Skill />}
                 {showLike && <Like />}
             </ChangeView.Provider>
         </div>

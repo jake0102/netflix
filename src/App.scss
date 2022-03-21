@@ -409,13 +409,13 @@
         cursor: pointer;
     }
 }
-.language{
+.skill{
     width: 100%;
     height: 100%;
     animation: var(--animation);
     position: relative;
 }
-.language-top{
+.skill-top{
     width: 100%;
     height: 15%;
     font-family: 'Oswald', sans-serif;
@@ -426,7 +426,7 @@
     align-items: center;
     justify-content: center;
 }
-.language-top-real{
+.skill-top-real{
     position: absolute;
     top: 0;
     left: 0;
@@ -440,7 +440,7 @@
     align-items: center;
     justify-content: center;
 }
-.language-bot{
+.skill-bot{
     width: 100%;
 }
 .row{
@@ -453,7 +453,7 @@
     align-items: center;
     justify-content: center;
 }
-.language-bot-row-title{
+.skill-bot-row-title{
     width: 100%;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;

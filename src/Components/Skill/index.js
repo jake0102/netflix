@@ -1,16 +1,16 @@
 import Col from './Col'
 
-function Language(){
+function Skill(){
     return (
-        <div className="language">
-            <div className="language-top">
+        <div className="skill">
+            <div className="skill-top">
                 MY SKILLS
             </div>
-            <div className="language-top-real">
+            <div className="skill-top-real">
                 MY SKILLS
             </div>
 
-            <div className="language-bot">
+            <div className="skill-bot">
                 <div className="row">
                     <Col per='90' title='HTML'/>
 
@@ -36,7 +36,7 @@ function Language(){
 
                     <Col per='33' title='LARAVEL'/>
 
-                    <Col per='50' title='NODE'/>
+                    <Col per='45' title='NODE'/>
 
                     <Col per='20' title='C'/>
                 </div>
@@ -45,4 +45,4 @@ function Language(){
     )
 }
 
-export default Language
+export default Skill

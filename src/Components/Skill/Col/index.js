@@ -17,7 +17,7 @@ function Col(props){
                     </div>
                 </div>
         
-                <div className="language-bot-row-title">
+                <div className="skill-bot-row-title">
                     {props.title}
                 </div>
             </div>
