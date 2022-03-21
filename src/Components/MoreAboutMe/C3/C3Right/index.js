@@ -5,11 +5,11 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            12<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
+                            7<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
-                            YEARS OF EXPERIENCE
+                            YEARS OF <br />EXPERIENCE
                         </div>
                     </div>
                 </div>
@@ -17,11 +17,11 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            97<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
+                            10<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
-                            COMPLETED PROJECTS
+                            COMPLETED <br />PROJECTS
                         </div>
                     </div>
                 </div>
@@ -31,11 +31,11 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            81<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
+                            10<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
-                            HAPPY <br />CUSTOMERS
+                            PROGRAMING <br />LANGUAGE
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function C3Right(){
                 <div className='moreAboutMe-container-3-right-item'>
                     <div className="moreAboutMe-container-3-right-item-content">
                         <div className="moreAboutMe-container-3-right-item-content-top">
-                            53<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}>+</span>
+                            0<span style={{fontSize:'20px', margin: '0 0 1rem .3rem'}}></span>
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
