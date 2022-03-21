@@ -30,6 +30,16 @@ function Language(){
 
                     <Col per='60' title='PHP'/>
                 </div>
+
+                <div className="row">
+                    <Col per='70' title='MY SQL'/>
+
+                    <Col per='50' title='LARAVEL'/>
+
+                    <Col per='55' title='NODE'/>
+
+                    <Col per='20' title='C'/>
+                </div>
             </div>
         </div>
     )
