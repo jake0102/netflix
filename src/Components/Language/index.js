@@ -11,6 +11,9 @@ function Language(){
             <div className="language-top">
                 MY SKILLS
             </div>
+            <div className="language-top-real">
+                MY SKILLS
+            </div>
             <div className="language-bot">
 
             </div>
