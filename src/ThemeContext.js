@@ -3,8 +3,16 @@ import { useState, createContext } from 'react'
 const ThemeContext = createContext()
 
 function ThemeProvider( {children} ){
+    const d = new Date
+    let h = d.getHours()
 
-    const nowTheme = 'light'
+    let nowTheme
+
+    if(h >= 6 && h <= 18){
+        nowTheme = 'light'
+    }else{
+        nowTheme = 'dark'
+    }
 
     const [headerTheme, setHeaderTheme] = useState(`header-${nowTheme}`)
 

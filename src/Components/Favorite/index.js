@@ -3,6 +3,7 @@ import { faBasketball, faMusic, faGamepad, faFlag } from '@fortawesome/free-soli
 import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
+import img1 from './football.png'
 
 function Favorite(){
 
@@ -20,6 +21,13 @@ function Favorite(){
                     <FontAwesomeIcon icon={faBasketball} style={{marginLeft: '1rem', color: 'rgb(218, 105, 105)'}}/>
                 </div>
                 
+                <div className="favorite-container-content mt-3">
+                    <ul>
+                        <li><img src={img1} className="me-3"/>Succer</li>
+                        <li><img src={img1} className="me-3"/>Swim</li>
+                        <li><img src={img1} className="me-3"/>Marathon</li>
+                    </ul>
+                </div>
             </div>
 
             <div className="favorite-container mb-5">
@@ -28,6 +36,13 @@ function Favorite(){
                     <FontAwesomeIcon icon={faMusic} style={{marginLeft: '1rem', color: '#f5c868'}}/>
                 </div>
                 
+                <div className="favorite-container-content mt-3">
+                    <ul>
+                        <li><img src={img1} className="me-3"/>Intention - Justin Bieber</li>
+                        <li><img src={img1} className="me-3"/>7 rings - Ariana Grande</li>
+                        <li><img src={img1} className="me-3"/>Perfect - Ed Sheeran</li>
+                    </ul>
+                </div>
             </div>
             
             <div className="favorite-container mb-5">
@@ -36,6 +51,13 @@ function Favorite(){
                     <FontAwesomeIcon icon={faGamepad} style={{marginLeft: '1rem', color: '#8abc43'}}/>
                 </div>
                 
+                <div className="favorite-container-content mt-3">
+                    <ul>
+                        <li><img src={img1} className="me-3"/>Valorant</li>
+                        <li><img src={img1} className="me-3"/>League of legends</li>
+                        <li><img src={img1} className="me-3"/>Naraka bladepoint</li>
+                    </ul>
+                </div>
             </div>
 
             <div className="favorite-container">
@@ -44,6 +66,13 @@ function Favorite(){
                     <FontAwesomeIcon icon={faFlag} style={{marginLeft: '1rem', color: '#339dcc'}}/>
                 </div>
                 
+                <div className="favorite-container-content mt-3">
+                    <ul>
+                        <li><img src={img1} className="me-3"/>Japan</li>
+                        <li><img src={img1} className="me-3"/>United States</li>
+                        <li><img src={img1} className="me-3"/>Korea</li>
+                    </ul>
+                </div>
             </div>
 
             <div className={value.headerTheme} style={{height: '50px'}}></div>
