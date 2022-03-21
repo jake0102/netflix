@@ -4,7 +4,7 @@ import { ThemeContext } from '../../ThemeContext'
 import AboutMe from '../../Components/AboutMe'
 import More from '../../Components/More'
 import Skill from '../../Components/Skill'
-import Like from '../../Components/Like'
+import Favorite from '../../Components/Favorite'
 import HomeNav from '../../Components/HomeNav'
 
 export const ChangeView = createContext()
@@ -14,7 +14,7 @@ function Home(){
     const [showAbout, setShowAbout] = useState(true)
     const [showMore, setShowMore] = useState(false)
     const [showSkill, setShowSkill] = useState(false)
-    const [showLike, setShowLike] = useState(false)
+    const [showFavorite, setShowFavorite] = useState(false)
 
     const value = useContext(ThemeContext)
 
@@ -24,25 +24,25 @@ function Home(){
                 setShowAbout(true)
                 setShowMore(false)
                 setShowSkill(false)
-                setShowLike(false)
+                setShowFavorite(false)
                 break;
             case 'more':
                 setShowAbout(false)
                 setShowMore(true)
                 setShowSkill(false)
-                setShowLike(false)
+                setShowFavorite(false)
                 break;
             case 'skill':
                 setShowAbout(false)
                 setShowMore(false)
                 setShowSkill(true)
-                setShowLike(false)
+                setShowFavorite(false)
                 break;
-            case 'like':
+            case 'Favorite':
                 setShowAbout(false)
                 setShowMore(false)
                 setShowSkill(false)
-                setShowLike(true)
+                setShowFavorite(true)
         }
     }
 
@@ -57,7 +57,7 @@ function Home(){
                 {showAbout && <AboutMe />}
                 {showMore && <More />}
                 {showSkill && <Skill />}
-                {showLike && <Like />}
+                {showFavorite && <Favorite />}
             </ChangeView.Provider>
         </div>
     )

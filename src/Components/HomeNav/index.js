@@ -9,7 +9,7 @@ function HomeNav(){
             <NavItem myIcon={faUser} myColor="rgb(218, 105, 105)" myView="about" myContents="About" />
             <NavItem myIcon={faQuestion} myColor="#f5c868" myView="more" myContents="More"/>
             <NavItem myIcon={faCode} myColor="#8abc43" myView="skill" myContents="Skill"/>
-            <NavItem myIcon={faHeart} myColor="pink" myView="like" myContents="Like"/>
+            <NavItem myIcon={faHeart} myColor="pink" myView="Favorite" myContents="Favorite"/>
         </div>
     )
 }
