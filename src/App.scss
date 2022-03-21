@@ -160,14 +160,14 @@
     animation: moveon 1s alternate forwards;
 }
 .home-aboutMe-left{
-    width: 40%;
+    width: 50%;
     height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .home-aboutMe-left-container{
-    width: 80%;
+    width: 70%;
     height: 85%;
     border-radius: 10px;
     background: white;
@@ -180,7 +180,7 @@
     border-radius: 10px;
 }
 .home-aboutMe-right{
-    width: 60%;
+    width: 50%;
     height: calc(100vh - 80px);
     display: flex;
     justify-content: center;
@@ -354,15 +354,53 @@
     justify-content: center;
     align-items: center;
 }
-.x{
+.moreAboutMe-right-item-content{
     width: 90%;
     height: 85%;
     border-radius: 10px;
     border: 1px solid rgb(210, 210, 210);
 }
+.moreAboutMe-right-item-content-top{
+    height: 50%;
+    font-size: 40px;
+    margin: 0 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+}
+.moreAboutMe-right-item-content-bot{
+    height: 50%;
+    font-size: 18px;
+    margin: 0 1rem 0 1rem;
+}
+.moreAboutMe-container-4{
+    width: 100%;
+    height: calc(30% - 1.5rem);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.moreAboutMe-container-4-contents{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.moreAboutMe-container-4-contents-item{
+    width: 104px;
+    height: 80%;
+    margin: 0 2rem 0 2rem;
+    border-radius: 100rem;
+    font-size: 30px;
+    border: 1px solid rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
-
+    &:hover{
+        cursor: pointer;
+    }
+}
 
 
 

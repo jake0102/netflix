@@ -42,28 +42,57 @@ function MoreAboutMe(){
                         <div className='moreAboutMe-right'>
                             <div className='moreAboutMe-right-container'>
                                 <div className='moreAboutMe-right-item'>
-                                    <div className="x">
-
+                                    <div className="moreAboutMe-right-item-content">
+                                        <div className="moreAboutMe-right-item-content-top">
+                                            12
+                                        </div>
+                                        <div className="moreAboutMe-right-item-content-bot">
+                                            YEARS OF EXPERIENCE
+                                        </div>
                                     </div>
                                 </div>
                                 <div className='moreAboutMe-right-item'>
-                                    <div className="x">
-
+                                    <div className="moreAboutMe-right-item-content">
+                                        <div className="moreAboutMe-right-item-content-top">
+                                            97
+                                        </div>
+                                        <div className="moreAboutMe-right-item-content-bot">
+                                            COMPLETED PROJECTS
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className='moreAboutMe-right-container'>
                                 <div className='moreAboutMe-right-item'>
-                                    <div className="x">
-
+                                    <div className="moreAboutMe-right-item-content">
+                                        <div className="moreAboutMe-right-item-content-top">
+                                            81
+                                        </div>
+                                        <div className="moreAboutMe-right-item-content-bot">
+                                            HAPPY <br />CUSTOMERS
+                                        </div>
                                     </div>
                                 </div>
                                 <div className='moreAboutMe-right-item'>
-                                    <div className="x">
-
+                                    <div className="moreAboutMe-right-item-content">
+                                        <div className="moreAboutMe-right-item-content-top">
+                                            53
+                                        </div>
+                                        <div className="moreAboutMe-right-item-content-bot">
+                                            AWARDS <br />WON
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="moreAboutMe-container-4">
+                        <div className="moreAboutMe-container-4-contents">
+                            <div className="moreAboutMe-container-4-contents-item">19</div>
+                            <div className="moreAboutMe-container-4-contents-item">96</div>
+                            <div className="moreAboutMe-container-4-contents-item">11</div>
+                            <div className="moreAboutMe-container-4-contents-item">19</div>
                         </div>
                     </div>
                 </div>
