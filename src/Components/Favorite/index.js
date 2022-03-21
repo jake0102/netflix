@@ -10,7 +10,7 @@ function Favorite(){
 
     return (
         <div className="favorite">
-            <div className="favorite-title">
+            <div className="favorite-title mb-3">
                 <span>MY FAVORITE</span>
             </div>
 
