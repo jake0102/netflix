@@ -386,7 +386,7 @@
     justify-content: center;
 }
 .moreAboutMe-container-4-contents{
-    width: 60%;
+    width: 52%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -411,7 +411,7 @@
 }
 .language{
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100%;
     animation: var(--animation);
     position: relative;
 }
@@ -431,7 +431,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 20%;
+    height: 15%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
     font-size: 35px;
