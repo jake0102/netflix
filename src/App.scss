@@ -7,6 +7,7 @@
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     // font-family: 'Noto Sans JP', sans-serif;
+    cursor: default;
 }
 .Wrapper{
     position: absolute;
@@ -517,8 +518,40 @@
         margin-bottom: 1rem;
     }
 }
-
-
+.project{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+.project-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.project-top{
+    width: 100%;
+    height: 15%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 50px;
+    color: rgb(200, 200, 200, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-top-real{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 35px;
+    color: #8abc43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

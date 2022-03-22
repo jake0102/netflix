@@ -1,14 +1,15 @@
 import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
+import Container from '../../Components/ProjectContainer'
 
 function Project(){
 
     const value = useContext(ThemeContext)
 
     return(
-        <div className={`project ${value.theme}`}>
-            <h1>Project Page</h1>
+        <div className={`project ${value.wrapperTheme}`}>
+            <Container />
         </div>
     )
 }
