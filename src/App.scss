@@ -2,6 +2,7 @@
     --box-shadow: 3px 3px 7px rgb(230, 230, 230);
     --opa: 0.7;
     --animation: moveon 1s alternate forwards;
+    --pageAnimation: pageMoveon 1s alternate forwards;
 }
 .App{
     font-size: 14px;
@@ -518,32 +519,23 @@
         margin-bottom: 1rem;
     }
 }
-.project{
-    width: 100%;
-    height: calc(100vh - 80px);
-}
-.project-container{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.project-top{
+.pageTitle-top{
     width: 100%;
     height: 15%;
     font-family: 'Oswald', sans-serif;
-    letter-spacing: .3rem;
-    font-size: 50px;
+    letter-spacing: .7rem;
+    font-size: 60px;
     color: rgb(200, 200, 200, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.project-top-real{
+.pageTitle-top-real{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 15%;
+    height: 20%;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .3rem;
     font-size: 35px;
@@ -552,9 +544,46 @@
     align-items: center;
     justify-content: center;
 }
-
-
-
+.project{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+.project-container{
+    animation: var(--pageAnimation);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.blog{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+.blog-container{
+    animation: var(--pageAnimation);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.contact{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+.contact-container{
+    animation: var(--pageAnimation);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.about{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+.about-container{
+    animation: var(--pageAnimation);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
 
 
@@ -645,7 +674,14 @@
         transform: translateX(0);
     }
 }
-
+@keyframes pageMoveon {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 // Cricle
 .rect-auto, .c100.p51 .slice, .c100.p52 .slice, .c100.p53 .slice, .c100.p54 .slice, .c100.p55 .slice, .c100.p56 .slice, .c100.p57 .slice, .c100.p58 .slice, .c100.p59 .slice, .c100.p60 .slice, .c100.p61 .slice, .c100.p62 .slice, .c100.p63 .slice, .c100.p64 .slice, .c100.p65 .slice, .c100.p66 .slice, .c100.p67 .slice, .c100.p68 .slice, .c100.p69 .slice, .c100.p70 .slice, .c100.p71 .slice, .c100.p72 .slice, .c100.p73 .slice, .c100.p74 .slice, .c100.p75 .slice, .c100.p76 .slice, .c100.p77 .slice, .c100.p78 .slice, .c100.p79 .slice, .c100.p80 .slice, .c100.p81 .slice, .c100.p82 .slice, .c100.p83 .slice, .c100.p84 .slice, .c100.p85 .slice, .c100.p86 .slice, .c100.p87 .slice, .c100.p88 .slice, .c100.p89 .slice, .c100.p90 .slice, .c100.p91 .slice, .c100.p92 .slice, .c100.p93 .slice, .c100.p94 .slice, .c100.p95 .slice, .c100.p96 .slice, .c100.p97 .slice, .c100.p98 .slice, .c100.p99 .slice, .c100.p100 .slice {
   clip: rect(auto, auto, auto, auto);
