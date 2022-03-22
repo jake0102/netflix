@@ -10,7 +10,7 @@ function Project(){
     return(
         <div className={`project ${value.wrapperTheme}`}>
             <div className="project-container">
-                <PageTitle title="WHAT CAN I DO?" childTitle="MY PROJECTS"/>
+                <PageTitle title="WHAT DOES?" childTitle="PROJECT"/>
             </div>
         </div>
     )
