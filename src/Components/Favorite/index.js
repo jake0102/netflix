@@ -10,9 +10,9 @@ function Favorite(){
 
     const sport = {
         color: 'rgb(218, 105, 105)',
-        title: 'Sport',
+        title: 'Sports',
         icon: faBasketball,
-        content: ['Succer', 'Swim', 'Marathon']
+        content: ['Football', 'Swimming', 'Marathon']
     }
 
     const music = {
@@ -24,14 +24,14 @@ function Favorite(){
 
     const game = {
         color: '#8abc43',
-        title: 'Game',
+        title: 'Games',
         icon: faGamepad,
         content: ['Valorant', 'League of legends', 'Naraka bladepoint']
     }
 
     const nation = {
         color: '#339dcc',
-        title: 'Nation',
+        title: 'Countries',
         icon: faFlag,
         content: ['Japan', 'United of states', 'Korea']
     }
