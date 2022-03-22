@@ -1,11 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import img1 from '../list.png'
+import img1 from './list.png'
 
 function Item(props){
-
-
-
     return (
         <div className="favorite-container mb-5">
             <div className="favorite-container-tilte">
