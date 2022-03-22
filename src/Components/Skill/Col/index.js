@@ -7,7 +7,7 @@ function Col(props){
     const value = useContext(ThemeContext)
 
     return (
-        <div className="col">
+        <div className="col myCol">
             <div>
                 <div className={`c100 p${props.per} mb-4 ${value.colTheme}`}>
                     <span>{props.per}%</span>

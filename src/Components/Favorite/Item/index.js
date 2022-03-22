@@ -13,7 +13,7 @@ function Item(props){
             <div className="favorite-container-content mt-3">
                 <ul>
                     {props.data.content.map((item, index) => (
-                        <li><img src={img1} className="me-3" key={index}/>{item}</li>
+                        <li key={index}><img src={img1} className="me-3"/>{item}</li>
                     ))}
                 </ul>
             </div>

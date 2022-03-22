@@ -11,7 +11,7 @@ function Skill(){
             </div>
 
             <div className="skill-bot">
-                <div className="row">
+                <div className="row myRow">
                     <Col per='90' title='HTML'/>
 
                     <Col per='85' title='CSS'/>
@@ -21,7 +21,7 @@ function Skill(){
                     <Col per='70' title='REACT'/>
                 </div>
 
-                <div className="row">
+                <div className="row myRow">
                     <Col per='65' title='PYTHON'/>
 
                     <Col per='45' title='JAVA'/>
@@ -31,7 +31,7 @@ function Skill(){
                     <Col per='60' title='PHP'/>
                 </div>
 
-                <div className="row">
+                <div className="row myRow">
                     <Col per='70' title='MY SQL'/>
 
                     <Col per='33' title='LARAVEL'/>

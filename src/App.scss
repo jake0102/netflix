@@ -442,12 +442,12 @@
 .skill-bot{
     width: 100%;
 }
-.row{
+.myRow{
     margin: 0 auto;
     width: 1100px;
     height: 300px;
 }
-.col{
+.myCol{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -584,6 +584,36 @@
     height: 100%;
     position: relative;
 }
+.RenameLater{
+    width: 1140px;
+    margin: 0 auto;
+}
+.rl-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.rl-col{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    // border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -872,3 +902,14 @@
 }
 
 // Responsive
+@media screen and (max-width: 1200px) {
+    .RenameLater{
+        
+    }
+    .rl-row{
+        
+    }
+    .rl-col{
+        
+    }
+}

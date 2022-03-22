@@ -2,6 +2,7 @@ import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
 import PageTitle from '../../Components/PageTitle'
+import RenameLater from '../../Components/RenameLater'
 
 function Project(){
 
@@ -11,6 +12,7 @@ function Project(){
         <div className={`project ${value.wrapperTheme}`}>
             <div className="project-container">
                 <PageTitle title="WHAT DOES?" childTitle="PROJECT"/>
+                <RenameLater />
             </div>
         </div>
     )
