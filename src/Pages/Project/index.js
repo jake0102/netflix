@@ -3,10 +3,12 @@ import { useContext } from 'react'
 import { ThemeContext } from '../../ThemeContext'
 import PageTitle from '../../Components/PageTitle'
 import ProjectContents from '../../Components/ProjectContents'
-import Bird from './bird.jpg'
-import Dinosaur from './dinosaur.png'
-import Exc from './exchange.jpg'
-import Valorant from './valorant.png'
+import Bird from './imgs/bird.jpg'
+import Dinosaur from './imgs/dinosaur.png'
+import Exc from './imgs/exchange.jpg'
+import Valorant from './imgs/valorant.png'
+import Quaraok from './imgs/Quaraok.png'
+import Hanako from './imgs/Hanako.png'
 
 function Project(){
 
@@ -26,12 +28,12 @@ function Project(){
         {
             title: 'QuaraOK',
             colors: 'pink',
-            imgSrc: ''
+            imgSrc: Quaraok
         },
         {
             title: 'FM Hanako',
             colors: 'blue',
-            imgSrc: ''
+            imgSrc: Hanako
         },
         {
             title: 'Exchange',
