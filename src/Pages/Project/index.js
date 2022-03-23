@@ -16,32 +16,32 @@ function Project(){
 
     const contentsItems = [
         {
-            title: 'Flappy Bird',
-            colors: 'red',
+            title: '',
+            colors: 'chocolate',
             imgSrc: Bird
         },
         {
-            title: 'Dinosaur',
-            colors: 'green',
+            title: '',
+            colors: 'chocolate',
             imgSrc: Dinosaur
         },
         {
-            title: 'QuaraOK',
-            colors: 'pink',
+            title: '',
+            colors: 'chocolate',
             imgSrc: Quaraok
         },
         {
-            title: 'FM Hanako',
-            colors: 'blue',
+            title: '',
+            colors: 'chocolate',
             imgSrc: Hanako
         },
         {
-            title: 'Exchange',
-            colors: 'violet',
+            title: '',
+            colors: 'chocolate',
             imgSrc: Exc
         },
         {
-            title: 'Valorant',
+            title: '',
             colors: 'chocolate',
             imgSrc: Valorant
         },
