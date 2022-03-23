@@ -11,27 +11,33 @@ function Project(){
     const contentsItems = [
         {
             title: 'Flappy Bird',
-            colors: 'red'
+            colors: 'red',
+            imgSrc: ''
         },
         {
             title: 'Dinosaur',
-            colors: 'green'
+            colors: 'green',
+            imgSrc: ''
         },
         {
             title: 'QuaraOK',
-            colors: 'pink'
+            colors: 'pink',
+            imgSrc: ''
         },
         {
             title: 'FM Hanako',
-            colors: 'blue'
+            colors: 'blue',
+            imgSrc: ''
         },
         {
             title: 'Exchange',
-            colors: 'violet'
+            colors: 'violet',
+            imgSrc: ''
         },
         {
             title: 'Valorant',
-            colors: 'chocolate'
+            colors: 'chocolate',
+            imgSrc: ''
         },
     ]
 
