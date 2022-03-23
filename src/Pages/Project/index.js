@@ -3,6 +3,10 @@ import { useContext } from 'react'
 import { ThemeContext } from '../../ThemeContext'
 import PageTitle from '../../Components/PageTitle'
 import ProjectContents from '../../Components/ProjectContents'
+import Bird from './bird.jpg'
+import Dinosaur from './dinosaur.png'
+import Exc from './exchange.jpg'
+import Valorant from './valorant.png'
 
 function Project(){
 
@@ -12,12 +16,12 @@ function Project(){
         {
             title: 'Flappy Bird',
             colors: 'red',
-            imgSrc: ''
+            imgSrc: Bird
         },
         {
             title: 'Dinosaur',
             colors: 'green',
-            imgSrc: ''
+            imgSrc: Dinosaur
         },
         {
             title: 'QuaraOK',
@@ -32,12 +36,12 @@ function Project(){
         {
             title: 'Exchange',
             colors: 'violet',
-            imgSrc: ''
+            imgSrc: Exc
         },
         {
             title: 'Valorant',
             colors: 'chocolate',
-            imgSrc: ''
+            imgSrc: Valorant
         },
     ]
 
