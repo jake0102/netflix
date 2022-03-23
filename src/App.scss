@@ -643,13 +643,12 @@
 .contact-contents-left{
     width: 50%;
     height: 100%;
-    background: rgba(255, 0, 0, 0.1);
 }
 .contact-contents-right{
     width: 50%;
     height: 100%;
-    background: rgba(0, 0, 255, 0.1);
 }
+
 
 
 
@@ -743,7 +742,7 @@
 // Ani
 @keyframes moveon {
     from{
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
     to{
         transform: translateX(0);

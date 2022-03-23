@@ -1,6 +1,10 @@
 import Col from './Col'
 
 function Skill(){
+
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+
     return (
         <div className="skill">
             <div className="skill-top">

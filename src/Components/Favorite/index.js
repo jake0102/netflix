@@ -6,6 +6,9 @@ import Item from './Item'
 
 function Favorite(){
 
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+
     const value = useContext(ThemeContext)
 
     const sport = {
