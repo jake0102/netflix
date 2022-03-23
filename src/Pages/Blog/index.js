@@ -12,7 +12,6 @@ function Blog(){
         <div className={`blog ${value.wrapperTheme}`}>
             <div className="blog-container">
                 <PageTitle title="WHAT'S NEWS?" childTitle="BLOG"/>
-                
                 <BlogContents />
             </div>
         </div>

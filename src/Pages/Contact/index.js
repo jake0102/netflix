@@ -2,6 +2,7 @@ import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
 import PageTitle from '../../Components/PageTitle'
+import ContactContents from '../../Components/ContactContents'
 
 function Contact(){
 
@@ -10,8 +11,9 @@ function Contact(){
     return(
         <div className={`contact ${value.wrapperTheme}`}>
             <div className="contact-container">
-                <PageTitle title="TALK TO ME" childTitle="CONTACT"/>
+                <PageTitle title="GET IN TOUCH" childTitle="CONTACT"/>
             </div>
+            <ContactContents />
         </div>
     )
 }

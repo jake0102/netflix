@@ -554,16 +554,6 @@
     height: 100%;
     position: relative;
 }
-.contact{
-    width: 100%;
-    height: calc(100vh - 80px);
-}
-.contact-container{
-    animation: var(--pageAnimation);
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
 .about{
     width: 100%;
     height: calc(100vh - 80px);
@@ -614,20 +604,46 @@
 }
 .blog{
     width: 100%;
+    height: calc(100vh - 80px);
 }
 .blog-container{
     animation: var(--pageAnimation);
     width: 100%;
+    height: 100%;
     position: relative;
 }
 .blog-contents{
     width: 1080px;
     margin: 0 auto;
-    border: 1px solid pink;
 }
-
-
-
+.contact{
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+.contact-container{
+    animation: var(--pageAnimation);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.contact-contents{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+}
+.contact-contents-left{
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.1);
+}
+.contact-contents-right{
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 255, 0.1);
+}
 
 
 
