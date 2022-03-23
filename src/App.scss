@@ -584,22 +584,27 @@
     height: 100%;
     position: relative;
 }
-.RenameLater{
-    width: 1140px;
+.project-contents{
+    width: 1280px;
     margin: 0 auto;
 }
-.rl-row{
+.project-contents-row{
     width: 100%;
     display: flex;
-    justify-content: space-between;
     padding: 0 !important;
     margin: 0 !important;
 }
-.rl-col{
+.project-contents-col{
+    width: 300px;
     height: 200px;
     display: flex;
     justify-content: center;
-    // border: 1px solid black;
+    align-items: center;
+    border: 1px solid rgb(210, 210, 210);
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
 }
 
 
@@ -903,13 +908,13 @@
 
 // Responsive
 @media screen and (max-width: 1200px) {
-    .RenameLater{
+    .project-contents{
+        width: 95%;
+    }
+    .project-contents-row{
         
     }
-    .rl-row{
-        
-    }
-    .rl-col{
+    .project-contents-col{
         
     }
 }
