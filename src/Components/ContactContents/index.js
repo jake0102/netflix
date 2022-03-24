@@ -27,12 +27,12 @@ function Contact(){
                     <div>
                         <span>and something wrong with</span>
                         <select>
-                            <option selected disabled>&nbsp;</option>
-                            <option>Home</option>
-                            <option>Project</option>
-                            <option>Blog</option>
-                            <option>Contact</option>
-                            <option>About</option>
+                            <option defaultValue>&nbsp;</option>
+                            <option value="Home">Home</option>
+                            <option value="Project">Project</option>
+                            <option value="Blog">Blog</option>
+                            <option value="Contact">Contact</option>
+                            <option value="About">About</option>
                         </select>
                     </div>
                 </div>
