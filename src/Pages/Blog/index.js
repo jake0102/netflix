@@ -11,7 +11,7 @@ function Blog(){
     return(
         <div className={`blog ${value.wrapperTheme}`}>
             <div className="blog-container">
-                <PageTitle title="WHAT'S NEWS?" childTitle="BLOG"/>
+                <PageTitle title="WHAT'S NEW?" childTitle="BLOG"/>
                 <BlogContents />
             </div>
         </div>

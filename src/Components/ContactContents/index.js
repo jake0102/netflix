@@ -25,7 +25,7 @@ function Contact(){
                     </div>
 
                     <div>
-                        <span>and something wrong with</span>
+                        <span>and something's wrong with</span>
                         <select>
                             <option defaultValue>&nbsp;</option>
                             <option value="Home">Home</option>

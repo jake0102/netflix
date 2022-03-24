@@ -50,7 +50,7 @@ function Project(){
     return(
         <div className={`project ${value.wrapperTheme}`}>
             <div className="project-container">
-                <PageTitle title="WHAT DOES?" childTitle="PROJECT"/>
+                <PageTitle title="CREATED" childTitle="PROJECT"/>
                 <ProjectContents contentsItems={contentsItems} />
             </div>
         </div>
