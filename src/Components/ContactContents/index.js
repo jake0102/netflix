@@ -1,10 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
+import img from './background.jpeg'
+
 function Contact(){
     return (
         <div className="contact-contents">
-            <div>
+
+            <img src={img} />
+
+            <div style={{zIndex: '2'}}>
                 <div className="contact-contents-x">
                     / Contact
                 </div>
