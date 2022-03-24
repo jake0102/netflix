@@ -625,6 +625,7 @@
 .contact{
     width: 100%;
     height: calc(100vh - 80px);
+    animation: var(--pageAnimation);
 }
 .contact-container{
     animation: var(--pageAnimation);
@@ -633,30 +634,109 @@
     position: relative;
 }
 .contact-contents{
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.contact-contents-left{
-    width: 50%;
-    height: 100%;
+.contact-contents-x{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #339dcc;
 }
-.contact-contents-right{
-    width: 50%;
-    height: 100%;
+.contact-contents-title{
+    font-size: 30px;
+    margin-bottom: 70px;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    color: #8abc43;
 }
+.contact-contents-item1{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+    display: flex;
 
+    span{
+        color: #f5c868;
+        opacity: .7;
+    }
 
+    input{
+        font-size: 20px;
+        width: 300px;
+        border: none;
+        outline: none;
+        font-weight: bolder;
+        margin: 0 1rem 0 1rem;
+        border-bottom: 1px solid rgb(210, 210, 210);
+        background: rgb(0, 0, 0, 0);
 
+        &::placeholder{
+            opacity: .3;
+            text-align: center;
+        }
+    }
 
+    select{
+        font-size: 20px;
+        width: 300px;
+        border: none;
+        outline: none;
+        font-weight: bolder;
+        text-align: center;
+        margin: 0 1rem 0 1rem;
+        border-bottom: 1px solid rgb(210, 210, 210);
+        background: rgb(0, 0, 0, 0);
+    }
+}
+.contact-contents-item2{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+    display: flex;
 
+    span{
+        color: #f5c868;
+        opacity: .7;
+    }
 
+    input{
+        font-size: 20px;
+        width: 400px;
+        margin: 0 1rem 0 1rem;
+        border: none;
+        font-weight: bolder;
+        outline: none;
+        border-bottom: 1px solid rgb(210, 210, 210);
+        background: rgb(0, 0, 0, 0);
 
+        &::placeholder{
+            opacity: .3;
+            text-align: center;
+        }
+    }
+}
+.contact-contents-accept{
+    font-size: 16px;
+    margin-bottom: 40px;
 
-
+    input{
+        cursor: pointer;
+        margin-right: 10px;
+    }
+}
+.contact-contents-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
 
 
 
@@ -742,7 +822,7 @@
 // Ani
 @keyframes moveon {
     from{
-        transform: translateX(100%);
+        transform: translateX(-100%);
     }
     to{
         transform: translateX(0);

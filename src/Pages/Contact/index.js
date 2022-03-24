@@ -10,9 +10,9 @@ function Contact(){
 
     return(
         <div className={`contact ${value.wrapperTheme}`}>
-            <div className="contact-container">
+            {/* <div className="contact-container">
                 <PageTitle title="GET IN TOUCH" childTitle="CONTACT"/>
-            </div>
+            </div> */}
             <ContactContents />
         </div>
     )
