@@ -2,7 +2,6 @@
     --box-shadow: 3px 3px 7px rgb(230, 230, 230);
     --opa: 0.7;
     --animation: moveon 1s alternate forwards;
-    --pageAnimation: pageMoveon 1s alternate forwards;
 }
 .App{
     font-size: 14px;
@@ -519,47 +518,22 @@
         margin-bottom: 1rem;
     }
 }
-.pageTitle-top{
+.about{
     width: 100%;
-    height: 15%;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .3rem;
-    font-size: 60px;
-    color: rgb(200, 200, 200, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: calc(100vh - 80px);
 }
-.pageTitle-top-real{
-    position: absolute;
-    top: 0;
-    left: 0;
+.about-container{
+    animation: var(--animation);
     width: 100%;
-    height: 20%;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .3rem;
-    font-size: 35px;
-    color: #8abc43;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
+    position: relative;
 }
 .project{
     width: 100%;
     height: calc(100vh - 80px);
 }
 .project-container{
-    animation: var(--pageAnimation);
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.about{
-    width: 100%;
-    height: calc(100vh - 80px);
-}
-.about-container{
-    animation: var(--pageAnimation);
+    animation: var(--animation);
     width: 100%;
     height: 100%;
     position: relative;
@@ -608,29 +582,40 @@
         transform: scale(105%);
     }
 }
-.blog{
+.project-top{
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 15%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 60px;
+    color: rgb(200, 200, 200, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.blog-container{
-    animation: var(--pageAnimation);
+.project-top-real{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
-    position: relative;
-}
-.blog-contents{
-    width: 1080px;
-    margin: 0 auto;
+    height: 20%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 35px;
+    color: #8abc43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contact{
     width: 100%;
     height: calc(100vh - 80px);
-    animation: var(--pageAnimation);
+    animation: var(--animation);
     position: relative;
     background: #fcfcfc;
 }
 .contact-container{
-    animation: var(--pageAnimation);
+    animation: var(--animation);
     width: 100%;
     height: 100%;
     position: relative;
@@ -778,6 +763,94 @@
     align-items: center;
     justify-content: center;
 }
+.blog{
+    width: 100%;
+    height: 100%;
+}
+.blog-container{
+    animation: var(--animation);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.blog-contents{
+    width: 100%;
+    margin: 0 auto;
+}
+.blog-row{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.blog-col{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.blog-col-container{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &:hover{
+        cursor: pointer;
+    }
+
+    &:hover .blog-col-container-title img{
+        transform: scale(110%);
+    }
+}
+.blog-col-container-title{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all .3s ease; 
+    }
+}
+.blog-col-container-description{
+    width: 100%;
+    height: 40%;
+    background: rgb(245, 245, 245);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+.blog-col-container-description-top{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: .8rem;
+}
+.blog-top{
+    width: 100%;
+    height: 15%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 60px;
+    color: rgb(200, 200, 200, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-top-real{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3rem;
+    font-size: 35px;
+    color: #8abc43;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
@@ -866,14 +939,6 @@
     }
     to{
         transform: translateX(0);
-    }
-}
-@keyframes pageMoveon {
-    from{
-        transform: translateY(-100%);
-    }
-    to{
-        transform: translateY(0);
     }
 }
 // Cricle

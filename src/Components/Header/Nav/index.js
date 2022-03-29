@@ -34,9 +34,9 @@ function Nav(){
                 Contact
             </Link>
 
-            <Link to="/About" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
+            {/* <Link to="/About" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
                 About
-            </Link>
+            </Link> */}
         </div>
     )
 }
