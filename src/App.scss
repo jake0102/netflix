@@ -523,7 +523,6 @@
     height: calc(100vh - 80px);
 }
 .about-container{
-    animation: var(--animation);
     width: 100%;
     height: 100%;
     position: relative;
@@ -869,6 +868,14 @@
 
 
 
+
+
+
+
+
+
+
+
 // Theme change
 .header-dark{
     background: rgb(50, 50, 50);
@@ -938,7 +945,9 @@
 .contactTop-light{
     background: #fcfcfc;
 }
-
+.blog-description-dark{
+    background: rgb(80, 80, 80);
+}
 // Ani
 @keyframes moveon {
     from{
