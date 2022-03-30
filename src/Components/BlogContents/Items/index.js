@@ -10,16 +10,16 @@ function Item(props){
         <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-12 blog-col">
             <div className="blog-col-container">
                 <div className="blog-col-container-title">
-                    <img src={props.myImg}/>
+                    <img src={props.item.contentsImg}/>
                 </div>
 
                 <div className={`blog-col-container-description ${value.blogDesTheme}`}>
                     <div className="blog-col-container-description-top">
-                        How to Own Your Audience by Creating an Email List
+                        {props.item.contentsTitle}
                     </div>
 
                     <div>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...
+                        {props.item.contentsDescription}
                     </div>
                 </div>
             </div>

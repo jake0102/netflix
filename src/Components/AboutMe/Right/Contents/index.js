@@ -8,7 +8,7 @@ function Contents(){
                 </div>
 
                 <div className="home-aboutMe-right-description-contents">
-                    <p>I'm a Vietnamese based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
+                    <p>I'm a American based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                 </div>
             </div>
         </div>
