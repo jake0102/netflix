@@ -4,7 +4,6 @@ import { useContext } from 'react'
 
 import { ThemeContext } from '../../ThemeContext'
 import imgLight from './background.jpeg'
-import imgDark from './background-dark.jpeg'
 
 function Contact(){
 
@@ -12,7 +11,8 @@ function Contact(){
 
     return (
         <div className="contact-contents">
-            <img src={value.contactTopTheme === 'contactTop-light' ? `${imgLight}` : `${imgDark}`} />
+
+            {value.contactTopTheme === 'contactTop-light' && <img src={imgLight}></img>}
 
             <div style={{zIndex: '2'}}>
                 <div className="contact-contents-x">

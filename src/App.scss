@@ -554,7 +554,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(210, 210, 210);
+    border: 1px solid rgb(210, 210, 210, .5);
     margin: 10px 10px 10px 10px;
     border-radius: 10px;
     font-family: 'Oswald', sans-serif;
@@ -933,7 +933,8 @@
     }
 }
 .contactTop-dark{
-    background: #141819;
+    background: rgb(50, 50, 50);
+    color: white;
 }
 .contactTop-light{
     background: #fcfcfc;
