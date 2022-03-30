@@ -533,12 +533,12 @@
     height: calc(100vh - 80px);
 }
 .project-container{
-    animation: var(--animation);
     width: 100%;
     height: 100%;
     position: relative;
 }
 .project-contents{
+    animation: var(--animation);
     width: 1280px;
     margin: 0 auto;
 }
@@ -610,17 +610,16 @@
 .contact{
     width: 100%;
     height: calc(100vh - 80px);
-    animation: var(--animation);
     position: relative;
     background: #fcfcfc;
 }
 .contact-container{
-    animation: var(--animation);
     width: 100%;
     height: 100%;
     position: relative;
 }
 .contact-contents{
+    animation: var(--animation);
     width: 100%;
     height: 80%;
     display: flex;
@@ -769,12 +768,12 @@
     height: 100%;
 }
 .blog-container{
-    animation: var(--animation);
     width: 100%;
     height: 100%;
     position: relative;
 }
 .blog-contents{
+    animation: var(--animation);
     width: 100%;
     margin: 0 auto;
 }
