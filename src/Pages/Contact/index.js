@@ -8,8 +8,8 @@ function Contact(){
     const value = useContext(ThemeContext)
 
     return(
-        <div className={`contact ${value.wrapperTheme}`}>
-            <div className="contact-top">
+        <div className={`contact ${value.contactTopTheme}`}>
+            <div className={`contact-top`}>
                 GET IN TOUCH
             </div>
             <div className="contact-top-real">

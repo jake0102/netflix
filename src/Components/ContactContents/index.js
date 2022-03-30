@@ -1,13 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { useContext } from 'react'
 
-import img from './background.jpeg'
+import { ThemeContext } from '../../ThemeContext'
+import imgLight from './background.jpeg'
+import imgDark from './background-dark.jpeg'
 
 function Contact(){
+
+    const value = useContext(ThemeContext)
+
     return (
         <div className="contact-contents">
-
-            <img src={img} />
+            <img src={value.contactTopTheme === 'contactTop-light' ? `${imgLight}` : `${imgDark}`} />
 
             <div style={{zIndex: '2'}}>
                 <div className="contact-contents-x">

@@ -30,6 +30,8 @@ function ThemeProvider( {children} ){
 
     const [colTheme, setColTheme] = useState(`cricle-${nowTheme}`)
 
+    const [contactTopTheme, setContactTopTheme] = useState(`contactTop-${nowTheme}`)
+
     const toggleHeaderTheme = () => {
         setHeaderTheme(headerTheme === 'header-light' ? 'header-dark' : 'header-light')
         setNavTheme(navTheme === 'nav-light' ? 'nav-dark' : 'nav-light')
@@ -39,6 +41,7 @@ function ThemeProvider( {children} ){
         setMoreAboutMeTheme1(moreAboutMeTheme1 === 'moreAboutMe1-light' ? 'moreAboutMe1-dark' : 'moreAboutMe1-light')
         setMoreAboutMeTheme2(moreAboutMeTheme2 === 'moreAboutMe2-light' ? 'moreAboutMe2-dark' : 'moreAboutMe2-light')
         setColTheme(colTheme === 'cricle-light' ? 'cricle-dark' : 'cricle-light')
+        setContactTopTheme(contactTopTheme === 'contactTop-light' ? 'contactTop-dark' : 'contactTop-light')
     }
 
     const value = {
@@ -50,6 +53,7 @@ function ThemeProvider( {children} ){
         moreAboutMeTheme1,
         moreAboutMeTheme2,
         colTheme,
+        contactTopTheme,
         toggleHeaderTheme
     }
 
