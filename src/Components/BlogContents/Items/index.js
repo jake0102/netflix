@@ -1,6 +1,6 @@
 function Item(props){
     return (
-        <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 blog-col">
+        <div className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-12 blog-col">
             <div className="blog-col-container">
                 <div className="blog-col-container-title">
                     <img src={props.myImg}/>
