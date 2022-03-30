@@ -8,7 +8,7 @@ import ProjectPage from './Pages/Project'
 import BlogPage from './Pages/Blog'
 import ContactPage from './Pages/Contact'
 import AboutPage from './Pages/About'
-import RegisterPage from './Pages/Register'
+
 // Component
 import Header from './Components/Header'
 // Scroll function
@@ -21,13 +21,13 @@ import Header from './Components/Header'
 
     if (oldValue < newValue) {
       if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
-        if(header.classList[2] == 'showOut'){
+        if(header.classList[2] === 'showOut'){
           header.classList.remove('showOut')
         }
         header.classList.add('showIn')
       }
     } else if (oldValue > newValue) {
-      if(header.classList[2] == 'showIn'){
+      if(header.classList[2] === 'showIn'){
         header.classList.remove('showIn')
       }
       header.classList.add('showOut')
