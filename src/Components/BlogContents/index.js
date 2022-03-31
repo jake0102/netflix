@@ -12,28 +12,28 @@ function Blog(){
     const blogContents = [
         {
             contentsImg: img1,
-            contentsTitle: 'testing 1',
-            contentsDescription: 'des 1'
+            contentsTitle: 'How to Own Your Audience by Creating an Email List',
+            contentsDescription: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
         },
         {
             contentsImg: img2,
-            contentsTitle: 'testing 2',
-            contentsDescription: 'des 2'
+            contentsTitle: 'Top 10 Toolkits for Deep Learning in 2020',
+            contentsDescription: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
         },
         {
             contentsImg: img3,
-            contentsTitle: 'testing 3',
-            contentsDescription: 'des 3'
+            contentsTitle: 'Everything You Need to Know About Web Accessibility',
+            contentsDescription: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
         },
         {
             contentsImg: img4,
-            contentsTitle: 'testing 4',
-            contentsDescription: 'des 4'
+            contentsTitle: 'How to Inject Humor & Comedy Into Your Brand',
+            contentsDescription: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
         },
         {
             contentsImg: img5,
-            contentsTitle: 'testing 5',
-            contentsDescription: 'des 5'
+            contentsTitle: 'Women in Web Design: How To Achieve Success',
+            contentsDescription: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
         },
     ]
 
