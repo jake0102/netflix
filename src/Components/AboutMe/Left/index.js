@@ -1,10 +1,11 @@
 import modelImg from './model.jpeg'
+import xx from './xx.jpg'
 
 function Left(){
     return(
         <div className="home-aboutMe-left">
              <div className="home-aboutMe-left-container">
-                <img src={modelImg} className="home-aboutMe-left-container-img" />
+                <img src={xx} className="home-aboutMe-left-container-img" />
             </div>
         </div>
     )
