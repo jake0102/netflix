@@ -22,7 +22,7 @@ function Skill(){
 
                     <Col per='95' title='JAVASCRIPT'/>
 
-                    <Col per='70' title='REACT'/>
+                    <Col per='85' title='REACT'/>
                 </div>
 
                 <div className="row myRow">

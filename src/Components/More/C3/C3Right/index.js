@@ -9,7 +9,7 @@ function C3Right(){
                         </div>
 
                         <div className="moreAboutMe-container-3-right-item-content-bot">
-                            YEARS OF <br />EXPERIENCE
+                            YEARS OF <br />EXPERIENCE (Web)
                         </div>
                     </div>
                 </div>
