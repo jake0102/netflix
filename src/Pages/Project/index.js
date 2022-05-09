@@ -10,6 +10,7 @@ import Valorant from './imgs/valorant.png'
 import Quaraok from './imgs/Quaraok.png'
 import Hanako from './imgs/Hanako.png'
 import Yashion from './imgs/Yashion.png'
+import { Link } from 'react-router-dom'
 
 function Project(){
 
@@ -34,7 +35,8 @@ function Project(){
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Hanako
+            imgSrc: Hanako,
+            link: 'https://hanako824.github.io/hanako.jp/'
         },
         {
             title: '',
@@ -49,7 +51,8 @@ function Project(){
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Yashion
+            imgSrc: Yashion,
+            link: 'https://yashion.netlify.app/'
         },
     ]
 

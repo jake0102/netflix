@@ -26,9 +26,9 @@ function Nav(){
                 Project
             </Link>
 
-            <Link to="/Blog" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
+            {/* <Link to="/Blog" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
                 Blog
-            </Link>
+            </Link> */}
 
             <Link to="/Contact" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
                 Contact
