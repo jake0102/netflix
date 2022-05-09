@@ -27,7 +27,7 @@ function Project(){
             title: '',
             colors: 'chocolate',
             imgSrc: Dinosaur,
-            link: 'https://www.youtube.com/watch?v=-BCvTkLKlVs'
+            link: 'https://www.youtube.com/watch?v=OsmPo4roh7Y'
         },
         {
             title: '',
@@ -50,7 +50,8 @@ function Project(){
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Valorant
+            imgSrc: Valorant,
+            link: 'https://www.youtube.com/watch?v=h2LX-TZbH_A'
         },
         {
             title: '',
