@@ -19,11 +19,11 @@ function Nav(){
     return(
         <div className="header-nav">
             <Link to="/" className={`header-nav-item ${value.navTheme} active`} onClick={(e) => handleActive(e)}>
-                Home
+                ホーム
             </Link>
 
             <Link to="/Project" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
-                Project
+                プロジェクト
             </Link>
 
             {/* <Link to="/Blog" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
@@ -31,7 +31,7 @@ function Nav(){
             </Link> */}
 
             <Link to="/Contact" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>
-                Contact
+                リクエスト
             </Link>
 
             {/* <Link to="/About" className={`header-nav-item ${value.navTheme}`} onClick={(e) => handleActive(e)}>

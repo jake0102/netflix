@@ -13,30 +13,30 @@ function Favorite(){
 
     const sport = {
         color: 'rgb(218, 105, 105)',
-        title: 'Sports',
+        title: 'スポーツ',
         icon: faBasketball,
-        content: ['Football', 'Swimming', 'Marathon']
+        content: ['サッカー', '水泳', 'マラソン']
     }
 
     const music = {
         color: '#f5c868',
-        title: 'Music',
+        title: '音楽',
         icon: faMusic,
         content: ['Intention - Justin Bieber', '7 rings - Ariana Grande', 'Perfect - Ed Sheeran']
     }
 
     const game = {
         color: '#8abc43',
-        title: 'Games',
+        title: 'ゲーム',
         icon: faGamepad,
         content: ['Valorant', 'League of legends', 'Naraka bladepoint']
     }
 
     const nation = {
         color: '#339dcc',
-        title: 'Countries',
+        title: '国',
         icon: faFlag,
-        content: ['Japan', 'United of states', 'Korea']
+        content: ['日本', 'アメリカ', '韓国']
     }
 
     return (

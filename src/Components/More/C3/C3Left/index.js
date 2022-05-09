@@ -3,27 +3,27 @@ function C3Left(){
         <div className="moreAboutMe-container-3-left">
             <div className='moreAboutMe-container-3-left-container'>
                 <div className="moreAboutMe-container-3-left-container-title">
-                    PERSONAL INFOS
+                    個人情報
                 </div>
 
                 <div className="moreAboutMe-container-3-left-container-contents">
                     <div className="moreAboutMe-container-3-left-container-contents-left">
                         <ul>
-                            <li>First Name: <span style={{fontWeight: "bold"}}>Hoang</span></li>
-                            <li>Age: <span style={{fontWeight: "bold"}}>25 Years</span></li>
-                            <li>Freelance: <span style={{fontWeight: "bold"}}>Available</span></li>
-                            <li>Phone: <span style={{fontWeight: "bold"}}>070-8317-3445</span></li>
-                            <li>Email: <span style={{fontWeight: "bold"}}>minhquan191196@gmail.com</span></li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>姓:</span> Hoang</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>年齢:</span> 25</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>血液型:</span> B</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>電話番号:</span> 070-8317-3445</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>メール:</span> minhquan191196@gmail.com</li>
                         </ul>
                     </div>
 
                     <div className="moreAboutMe-container-3-left-container-contents-right">
                         <ul>
-                            <li>Last Name: <span style={{fontWeight: "bold"}}>Minh Quan</span></li>
-                            <li>Nationality: <span style={{fontWeight: "bold"}}>Vietnamese</span></li>
-                            <li>Addness: <span style={{fontWeight: "bold"}}>Japan</span></li>
-                            <li>Languages: <span style={{fontWeight: "bold"}}>Japan, Eng, Vn</span></li>
-                            <li>Outlook: <span style={{fontWeight: "bold"}}>nmb2118125@stu.o-hara.ac.jp</span></li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>名:</span> Minh Quan</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>国籍:</span> Vietnamese</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>住所:</span> Japan</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>言語:</span> Japan, Eng, Vn</li>
+                            <li><span style={{color: 'rgb(150, 150, 150)', fontFamily: "'Noto Sans JP', sans-serif" }}>Outlook:</span> nmb2118125@stu.o-hara.ac.jp</li>
                         </ul>
                     </div>
                 </div>

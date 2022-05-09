@@ -5,8 +5,8 @@
 }
 .App{
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-    // font-family: 'Noto Sans JP', sans-serif;
+    // font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     cursor: default;
 }
 .Wrapper{
@@ -203,7 +203,8 @@
 }
 .home-aboutMe-right-description-contents{
     width: 500px;
-
+    font-family: 'Poppins', sans-serif;
+    
     p{
         margin: 0 10px 0 0;
         font-size: 16px;
@@ -375,6 +376,7 @@
     height: 50%;
     font-size: 18px;
     margin: 0 1rem 0 1rem;
+    font-family: 'Poppins', sans-serif;
 }
 .moreAboutMe-container-4{
     width: 100%;
@@ -394,7 +396,7 @@
 }
 .moreAboutMe-container-4-contents-item{
     width: 104px;
-    height: 80%;
+    height: 65%;
     margin: 0 2rem 0 2rem;
     border-radius: 100rem;
     font-size: 30px;
@@ -463,6 +465,7 @@
     height: 100%;
     animation: var(--animation);
     font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .favorite-title{
     width: 100%;
@@ -610,6 +613,7 @@
     height: calc(100vh - 80px);
     position: relative;
     background: #fcfcfc;
+    font-family: 'Poppins', sans-serif;
 }
 .contact-container{
     width: 100%;
