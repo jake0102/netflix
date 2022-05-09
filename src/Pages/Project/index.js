@@ -20,17 +20,20 @@ function Project(){
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Bird
+            imgSrc: Bird,
+            link: 'https://www.youtube.com/watch?v=ypBzBunU9WE'
         },
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Dinosaur
+            imgSrc: Dinosaur,
+            link: 'https://www.youtube.com/watch?v=-BCvTkLKlVs'
         },
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Quaraok
+            imgSrc: Quaraok,
+            link: 'https://www.youtube.com/watch?v=-BCvTkLKlVs'
         },
         {
             title: '',
@@ -41,7 +44,8 @@ function Project(){
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Exc
+            imgSrc: Exc,
+            link: 'https://www.youtube.com/watch?v=sMUopeRbOFc'
         },
         {
             title: '',
