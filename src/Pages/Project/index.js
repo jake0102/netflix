@@ -9,6 +9,7 @@ import Exc from './imgs/exchange.jpg'
 import Valorant from './imgs/valorant.png'
 import Quaraok from './imgs/Quaraok.png'
 import Hanako from './imgs/Hanako.png'
+import Yashion from './imgs/Yashion.png'
 
 function Project(){
 
@@ -44,6 +45,11 @@ function Project(){
             title: '',
             colors: 'chocolate',
             imgSrc: Valorant
+        },
+        {
+            title: '',
+            colors: 'chocolate',
+            imgSrc: Yashion
         },
     ]
 
