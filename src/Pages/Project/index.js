@@ -20,6 +20,18 @@ function Project(){
         {
             title: '',
             colors: 'chocolate',
+            imgSrc: Yashion,
+            link: 'https://yashion.netlify.app/'
+        },
+        {
+            title: '',
+            colors: 'chocolate',
+            imgSrc: Hanako,
+            link: 'https://hanako824.github.io/hanako.jp/'
+        },
+        {
+            title: '',
+            colors: 'chocolate',
             imgSrc: Bird,
             link: 'https://www.youtube.com/watch?v=ypBzBunU9WE'
         },
@@ -38,12 +50,6 @@ function Project(){
         {
             title: '',
             colors: 'chocolate',
-            imgSrc: Hanako,
-            link: 'https://hanako824.github.io/hanako.jp/'
-        },
-        {
-            title: '',
-            colors: 'chocolate',
             imgSrc: Exc,
             link: 'https://www.youtube.com/watch?v=sMUopeRbOFc'
         },
@@ -52,12 +58,6 @@ function Project(){
             colors: 'chocolate',
             imgSrc: Valorant,
             link: 'https://www.youtube.com/watch?v=h2LX-TZbH_A'
-        },
-        {
-            title: '',
-            colors: 'chocolate',
-            imgSrc: Yashion,
-            link: 'https://yashion.netlify.app/'
         },
     ]
 
