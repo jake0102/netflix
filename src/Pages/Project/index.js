@@ -59,6 +59,18 @@ function Project(){
             imgSrc: Valorant,
             link: 'https://www.youtube.com/watch?v=h2LX-TZbH_A'
         },
+        {
+            title: '',
+            colors: 'chocolate',
+            imgSrc: Boogle,
+            link: 'https://jake-boogle.netlify.app'
+        },
+        {
+            title: '',
+            colors: 'chocolate',
+            imgSrc: Sbtc,
+            link: 'https://jake-sbtc.netlify.app'
+        },
     ]
 
     return(
