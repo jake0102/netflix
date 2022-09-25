@@ -27,7 +27,7 @@ function Project(){
             title: '',
             colors: 'chocolate',
             imgSrc: Hanako,
-            link: 'https://hanako824.github.io/hanako.jp/'
+            link: 'http://fmhanako.jp/'
         },
         {
             title: '',
